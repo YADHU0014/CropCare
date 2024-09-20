@@ -2,13 +2,16 @@ Features that can be worked on and ways to contribute to the project:
 
 Features:
 
-1) Develop Fertilizer Recommendation System:
+1) Advancement in the current crop recommendation system:
+Fetch real time land composition of the selected location to enhance the recommendation model.
+
+2) Develop Fertilizer Recommendation System:
 Analyse soil nutrient composition and crop type to recommend the appropriate
 fertilizers.
 Provide detailed guidance on how to address soil deficiencies and imbalances for
 improved crop health and yield.
 
-2) Create Plant Disease Prediction Application:
+3) Create Plant Disease Prediction Application:
 Enable users to upload images of diseased plant leaves.
 Utilize deep learning models to accurately diagnose plant diseases from the images.
 Offer detailed information on identified diseases and suggest effective treatment
