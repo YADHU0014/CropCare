@@ -8,3 +8,7 @@ Farmers face a lot of challenges in deciding the right crop to grow in their fie
 conditions.
 
 ![image](https://github.com/user-attachments/assets/f00b822b-6c38-44f5-89c3-038db36a74d6)
+
+
+![image](https://github.com/user-attachments/assets/b2e1fdcc-1ef2-4826-9167-7f112fcbeab7)
+
