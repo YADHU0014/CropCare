@@ -1,0 +1,31 @@
+{% extends 'layout.html' %} {% block body %}
+
+<style>
+  .mt-0 {
+  margin-top: 50 !important;
+}
+</style>
+
+
+<div class="container py-2 mx-auto my-50 h-10 " style="margin: 12rem;">
+  <div class="row">
+      <div class="col-sm py-2 py-md-3">
+          <div class="card card-body" style="justify-content: center;">
+            <h1>{{ title }}</h1>
+
+            {% if possible_crops %}
+                <h2>Recommended Crops:</h2>
+                <ul>
+                    {% for crop in possible_crops %}
+                        <li>{{ crop.crop }} - {{ crop.probability }}% suitability</li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>No suitable crops found for the given data.</p>
+            {% endif %}
+            
+          </div>
+      </div>
+  </div>
+</div>
+{% endblock %}
